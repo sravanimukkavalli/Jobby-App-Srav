@@ -1,0 +1,33 @@
+.similar-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+    background-color: #202020;
+    width: 90%;
+    height: 280px;
+    padding-bottom: 20px;
+    text-decoration-line: none;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding-top: 10px;
+  }
+  @media (min-width: 576px) {
+    .similar-container {
+      height: 380px;
+    }
+  }
+  @media (min-width: 768px) {
+    .similar-container {
+      width: 330px;
+      margin-left: 10px;
+      height: 780px;
+    }
+  }
+  @media (min-width: 992px) {
+    .similar-container {
+      width: 420px;
+      height: 480px;
+      height: 700px;
+    }
+  }
+  

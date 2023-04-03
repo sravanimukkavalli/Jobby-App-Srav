@@ -1,0 +1,163 @@
+.each-list-item {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+    background-color: #202020;
+    width: 100%;
+    height: 290px;
+    text-decoration-line: none;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding-top: 10px;
+  }
+  @media (min-width: 576px) {
+    .each-list-item {
+      height: 400px;
+    }
+  }
+  @media (min-width: 768px) {
+    .each-list-item {
+      height: 750px;
+      width: 110%;
+    }
+  }
+  @media (min-width: 992px) {
+    .each-list-item {
+      height: 600px;
+    }
+  }
+  .first-container {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+  }
+  .company-logo {
+    width: 30px;
+    height: 30px;
+  }
+  @media (min-width: 768px) {
+    .company-logo {
+      width: 60px;
+      height: 60px;
+    }
+  }
+  @media (min-width: 992px) {
+    .company-logo {
+      width: 100px;
+      height: 90px;
+      padding-right: 10px;
+    }
+  }
+  .company-name-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .rating-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .company-title {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Roboto';
+    padding-left: 5px;
+  }
+  @media (min-width: 576px) {
+    .company-title {
+      font-size: 19px;
+    }
+  }
+  @media (min-width: 768px) {
+    .company-title {
+      font-size: 23px;
+    }
+  }
+  .star-icon {
+    color: #fbbf24;
+    font-size: 15px;
+  }
+  @media (min-width: 768px) {
+    .star-icon {
+      font-size: 20px;
+    }
+  }
+  .company-rating {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Roboto';
+  }
+  @media (min-width: 576px) {
+    .company-rating {
+      font-size: 17px;
+    }
+  }
+  @media (min-width: 768px) {
+    .company-rating {
+      font-size: 25px;
+    }
+  }
+  .location-full-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .location-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .location-icon {
+    font-size: 18px;
+    color: #ffffff;
+    padding-left: 8px;
+  }
+  @media (min-width: 576px) {
+    .location-icon {
+      font-size: 20px;
+    }
+  }
+  @media (min-width: 768px) {
+    .location-icon {
+      font-size: 39px;
+      padding-left: 15px;
+    }
+  }
+  .line {
+    width: 90%;
+    background-color: #64748b;
+  }
+  .company-description {
+    color: #ffffff;
+    font-size: 13px;
+    font-family: 'Roboto';
+    padding-left: 5px;
+  }
+  @media (min-width: 576px) {
+    .company-description {
+      font-size: 20px;
+    }
+  }
+  @media (min-width: 768px) {
+    .company-description {
+      font-size: 28px;
+    }
+  }
+  .job-description {
+    color: #f8fafc;
+    font-size: 11px;
+    font-family: 'Roboto';
+    padding-left: 5px;
+    font-weight: normal;
+  }
+  @media (min-width: 576px) {
+    .job-description {
+      font-size: 15px;
+    }
+  }
+  @media (min-width: 768px) {
+    .job-description {
+      font-size: 28px;
+    }
+  }
+  

@@ -1,0 +1,98 @@
+.each-job-list-item {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+    background-color: #202020;
+    width: 95%;
+    padding-bottom: 20px;
+    text-decoration-line: none;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-left: 6px;
+  }
+  @media (min-width: 768px) {
+    .each-job-list-item {
+      width: 97%;
+    }
+  }
+  
+  .job-items-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .description-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+  }
+  .list-skill-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+  }
+  .list-skill {
+    display: flex;
+    flex-direction: row;
+    width: 120px;
+    height: 80px;
+  }
+  @media (min-width: 576px) {
+    .list-skill {
+      width: 240px;
+    }
+  }
+  @media (min-width: 768px) {
+    .list-skill {
+      width: 200px;
+      margin-bottom: 10px;
+    }
+  }
+  .skill-img {
+    width: 40px;
+    height: 40px;
+  }
+  @media (min-width: 768px) {
+    .skill-img {
+      width: 60px;
+      height: 50px;
+    }
+  }
+  .similar-jobs-container {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  @media (min-width: 768px) {
+    .similar-jobs-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  }
+  .visit-container {
+    padding-right: 10px;
+  }
+  .life-at-company-img {
+    width: 60%;
+    align-self: center;
+    height: 250px;
+  }
+  .company-life-container {
+    display: flex;
+    flex-direction: column;
+  }
+  @media (min-width: 768px) {
+    .company-life-container {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+  

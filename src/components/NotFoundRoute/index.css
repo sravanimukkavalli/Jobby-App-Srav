@@ -1,0 +1,43 @@
+.not-found-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    background-size: cover;
+    height: 100vh;
+  }
+  .not-found-image {
+    width: 200px;
+    height: 200px;
+  }
+  @media (min-width: 768px) {
+    .not-found-image {
+      width: 280px;
+      height: 280px;
+    }
+  }
+  .not-found-heading {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto';
+  }
+  @media (min-width: 768px) {
+    .not-found-heading {
+      font-size: 25px;
+    }
+  }
+  .not-found-description {
+    color: #64748b;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Roboto';
+    text-align: center;
+  }
+  @media (min-width: 768px) {
+    .not-found-description {
+      font-size: 23px;
+    }
+  }
+  
